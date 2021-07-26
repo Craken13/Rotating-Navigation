@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css" />
     <title>Rotating Navigation</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="circle-container">
-        <div class="circle">
-          <button id="close">
-            <i class="fas fa-times"></i>
-          </button>
-          <button id="open">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
+</head>
 
-      <div class="content">
-        <h1>Amazing Article</h1>
-      </div>
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+                <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel metus vitae ligula interdum tempus ut eget augue. Integer faucibus lacinia fermentum. Quisque eget nisi dui. Aliquam tincidunt, nisi sed ullamcorper venenatis, risus lectus lacinia
+                nunc, placerat finibus erat diam a lacus. Cras tincidunt, turpis a sollicitudin porttitor, ligula urna volutpat tortor, et ultrices nisi enim eu ipsum. Quisque eleifend libero eu metus laoreet, in gravida leo vulputate. Nunc vehicula odio
+                risus, a blandit nibh egestas quis. Suspendisse potenti. Donec imperdiet lorem sed lacus feugiat lacinia. Vestibulum ultricies condimentum leo quis sodales. Praesent in facilisis erat.
+            </p>
+
+            <h3>My Brain</h3>
+            <img src="leftbrainrightbrain.jpg" alt="brain" />
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, maiores corrupti, perferendis quisquam omnis ex sequi suscipit aliquam modi necessitatibus quis voluptatibus commodi perspiciatis eius fugit iusto exercitationem ipsum accusamus!</p>
+        </div>
     </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
